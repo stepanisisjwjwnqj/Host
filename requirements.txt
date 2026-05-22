@@ -1,0 +1,8 @@
+# 1. Удали левую библиотеку
+pip uninstall telegram -y
+
+# 2. Установи правильную (имя пакета именно такое)
+pip install python-telegram-bot
+
+# 3. Проверь, что установилось
+pip show python-telegram-bot
